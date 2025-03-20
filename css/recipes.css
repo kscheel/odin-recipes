@@ -1,0 +1,33 @@
+* {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+.image {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.recipe-description {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.ingredients-list {
+  width: 260px;
+  margin-bottom: 20px;
+}
+
+.steps-list {
+  width: 260px;
+  margin-bottom: 40px;
+}
