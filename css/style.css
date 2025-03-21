@@ -1,0 +1,16 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(236, 252, 199);
+}
+a {
+  font-size: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: darkred;
+  text-decoration: underline;
+}
