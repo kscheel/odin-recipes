@@ -1,16 +1,52 @@
-* {
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
   font-family: 'Courier New', Courier, monospace;
   background-color: rgb(236, 252, 199);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 a {
   font-size: 20px;
+  background-color: rgb(204, 255, 137);
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(135, 177, 81);;
 }
 
 li {
-  margin-bottom: 10px;
+  display: inline-block;
+  margin-bottom: 40px;
 }
 
 h1 {
-  color: darkred;
+  color: black;
   text-decoration: underline;
+  font-size: 70px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+body {
+  text-align: center;
+}
+
+.container {
+
+  margin: 0 auto;
+}
+
+.recipes-list {
+  display: inline-block;
+  text-align: left;
+  list-style: none;
 }
